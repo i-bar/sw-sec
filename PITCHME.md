@@ -6,9 +6,10 @@ The **WHO?** the **WHY?** and the **HOW?** -s for:
 
 1. Application Input and Output.
 2. Authentication.
+3. Session management. Cookies.
 3. Authorisation.
 4. Error handling and logging.
-5. Session management and communication security.
+5. Communication security.
 Sensitive data?
 
 ---
@@ -16,16 +17,20 @@ Sensitive data?
 ## Resources
 
 [OWASP proactive controls](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab=OWASP_Proactive_Controls_2016)
+
 [OWASP top 10 threats](https://www.owasp.org/index.php/Top_10_2013-A1-Injection)
+
 [OWASP secure practices checklist](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
+
 [OWASP cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series)
+
 [Mozilla Security QA Checklist](https://wiki.mozilla.org/WebAppSec/Secure_Coding_QA_Checklist)
 
 ---
 
 ### Application Input and Output: the WHO?
 
-Any application that accepts data directly entered by, or influenced by, users.
+Any application that accepts data directly entered by, or influenced by, users.  
 Input data can be:
  * HTTP headers;
  * Cookies;
@@ -42,7 +47,7 @@ Any application that includes user input in the application output:
 ### Application Input and Output: the WHY?
 
 Attacks & examples:
- * [SQL Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection): attacker executes unauthorized queries on the database.
+ * [SQL Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection): attacker executes unauthorized queries on the database.  
    [XKCD: Little Bobby Tables](https://www.xkcd.com/327/)
  * [XSS - Cross Site Scripting](https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_%28XSS%29): attacker input (e.g. malicious scripts) included in the web app output (the web page). The browser executes the scripts.  
    [XKCD: HeartBleed bug](https://xkcd.com/1354/)
@@ -72,7 +77,8 @@ It happens for greater houses?
 
 ### Authentication: the WHO?
 
-Keywords: login, logout, passwords management, timeouts, remember me, secret question, account update, etc.
+Keywords: login, logout, passwords management, remember me, secret question, account update, etc.
+
 Functionality:
  * Create new users;
  * Modify existing users;
@@ -107,14 +113,14 @@ Checklists:
  * [OWASP authentication cheat sheet](https://www.owasp.org/index.php/Authentication_Cheat_Sheet)
 
 Preview:
- * Implement proper password strength controls;
- * Implement secure password recovery mechanism;
+ * Enforce strong pwds;
+ * Implement secure pwd recovery mechanism;
  * Store passwords in a secure fashion (e.g. bcrypt);
  * Transmit pwds only over TLS or other strong transport;
  * Require re-authentication for sensitive features;
- * Implement pwd lockout or multifactor (prevents Brute Force);
+ * Implement pwd lockout or multifactor (prevents Brute Force, but attention to DoS);
  * Use multi-factor authentication (sth they know + own + are);
- * Implement secure pwd recovery mechanism...
+ * Force users to renew their pwds after a period of time;
 
 ---
 
@@ -122,4 +128,48 @@ Preview:
 
 [XKCD password strength](https://www.xkcd.com/936/)
 [Has your account been compromised?](https://haveibeenpwned.com/)
+
+---
+
+### Session Management: the WHO?
+
+Keywords: session timeout, session ID etc.
+
+---
+
+### Session Management: the WHY?
+
+[Session hikacking](https://en.wikipedia.org/wiki/Session_hijacking) attacks allow the attacker to fully impersonate a victim user in a web app.
+
+Methods:
+ * [Session prediction](https://www.owasp.org/index.php/Session_Prediction): session IDs generated in a predictable manner;
+ * [Session fixation](https://en.wikipedia.org/wiki/Session_fixation): attacker sets the user id to one known to him;
+ * Session sniffing: Attacker uses e.g. man-in-the-middle to read network traffic and steal session cookie;
+ * Client-side attacks: XSS, Trojans etc.: attacker tricks user to run malicious code.
+
+---
+
+### Session Management: the HOW?
+
+[OWASP Session Management Cheat Sheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)  
+[Java SSLSession](https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/SSLSession.html)  
+[Spring Session](http://projects.spring.io/spring-session/)
+
+Checklist:
+ * Session IDs: long, created using strong rnd. number generators;
+ * Generate Session IDs:
+   * after user login;
+   * immediately after privilege escalation or role change;
+   * after sensitive operations such as pwd. change.
+ * Session expiration:
+   * idle timeout;
+   * absolute timeout;
+   * manual expiration: visible logout button!
+ * Cookies: set the "secure" and "HttpOnly" attributes.   
+
+---
+
+### Authorisation: the WHO?
+
+
 
