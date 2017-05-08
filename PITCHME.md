@@ -2,12 +2,16 @@
 
 ---
 
-### The *WHO?* the *WHY?* and the *HOW*
+### The *WHO?* the *WHY?* and the *HOW*?
 
 Part 1:
 1. Application Input and Output.
 2. Authentication.
 3. Session management. Cookies.
+
++++
+
+### The *WHO?* the *WHY?* and the *HOW*?
 
 Part 2:
 4. Authorisation.
@@ -127,7 +131,7 @@ Attacker can impersonate a priviledged account.
 
 Attacks:
  * [Dictonary attacks](https://en.wikipedia.org/wiki/Dictionary_attack): based on trying all strings in a pre-arranged listing.  
- It works because... [most common passwords](https://www.regencyitc.co.uk/content-type/latest-news/interesting-password-statistics-from-2014/)
+ It works because... [most common passwords](https://www.regencyitc.co.uk/content-type/latest-news/interesting-password-statistics-from-2014/).
  * [Brute force attack](https://en.wikipedia.org/wiki/Brute-force_attack): all possible passwords are systematically checked.  
  Works because, e.g. 5 letter passwords are cracked [instantly](http://lastbit.com/rm_bruteforce.asp).
  * [Login spoofing](https://en.wikipedia.org/wiki/Login_spoofing): malicious program (Trojan) simulates an ordinary-looking login page.
@@ -175,9 +179,9 @@ Keywords: session timeout, session ID etc.
 
 ### Session Management: the *WHY?*
 
-[Session hikacking](https://en.wikipedia.org/wiki/Session_hijacking) attacks allow the attacker to fully impersonate a victim user in a web app.
+[Session hijacking](https://en.wikipedia.org/wiki/Session_hijacking) attacks allow the attacker to fully impersonate a victim user in a web app.
 
-[CSRF](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_%28CSRF%29)
+[CSRF / session riding](https://www.owasp.org/index.php/Top_10_2013-A8-Cross-Site_Request_Forgery_%28CSRF%29): attacker tricks victim into submitting an HTTP request (e.g. via image tags) while the user is authenticated.
 
 +++
 
