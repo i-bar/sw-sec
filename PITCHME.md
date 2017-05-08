@@ -1,8 +1,8 @@
-# Practical SW Security
+## Practical SW Security
 
 ---
 
-### The **WHO?** the **WHY?** and the **HOW?** -s for:
+### The *WHO?* the *WHY?* and the *HOW*
 
 Part 1:
 1. Application Input and Output.
@@ -13,7 +13,6 @@ Part 2:
 4. Authorisation.
 5. Error handling and logging.
 6. Communication security.
-7. Sensitive data.
 
 ---
 
@@ -31,13 +30,13 @@ Part 2:
 
 ---
 
-### Application Input and Output: the WHO?
+### App. Input and Output: the *WHO?*
 
 Any application that accepts data directly entered by, or influenced by, users.
 
 +++
 
-### Application Input and Output: the WHO?
+### App. Input and Output: the *WHO?*
 
 Input data can be:
  * HTTP headers;
@@ -48,7 +47,7 @@ Input data can be:
 
 +++
 
-### Application Input and Output: the WHO?
+### App. Input and Output: the *WHO?*
 
 Any application that includes user input in the application output:
  * Input that is immediately echoed back (e.g. search engine re-displays the searched string);
@@ -56,9 +55,8 @@ Any application that includes user input in the application output:
 
 ---
 
-### Application Input and Output: the WHY?
+### App. Input and Output: the *WHY?*
 
-Attacks & examples:
  * [SQL Injection](https://www.owasp.org/index.php/Top_10_2013-A1-Injection): attacker executes unauthorized queries on the database.  
    [XKCD: Little Bobby Tables](https://www.xkcd.com/327/)
  * [XSS - Cross Site Scripting](https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_%28XSS%29): attacker input (e.g. malicious scripts) included in the web app output (the web page). The browser executes the scripts.  
@@ -66,7 +64,7 @@ Attacks & examples:
 
 +++
 
-### Application Input and Output: the WHY?
+### App. Input and Output: the *WHY?*
 
 It happens for greater houses?
  * [OpenSSL Heartbleed](http://heartbleed.com/)
@@ -77,30 +75,34 @@ It happens for greater houses?
 
 ---
 
-### Application Input and Output: the HOW?
+### App. Input and Output: the *HOW?*
 
- * Use white-list validation, validate input **length, range, format and type**:
+ * Use white-list validation, validate input **length, range, format and type**:  
    E.g. [Spring](https://spring.io/guides/gs/validating-form-input/), [Spring MVC](http://www.journaldev.com/2668/spring-validation-example-mvc-validator), [java.util.Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html), regular expressions;
- * Validate data passed to the database:
+ * Validate data passed to the database:  
    E.g. [Parameterized Queries](https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet);
- * Encode all input included in output.
+ * Encode all input included in output:  
    E.g. [Untrusted HTML](https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet#XSS_Prevention_Rules_Summary), [OWASP Java Encoder](https://www.owasp.org/index.php/OWASP_Java_Encoder_Project#tab=Use_the_Java_Encoder_Project), [Java URL Encoder](https://docs.oracle.com/javase/7/docs/api/java/net/URLEncoder.html).
    
++++
+
+### App. Input and Output: the *HOW?*
+
+[And](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf).
+
+[Many](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet).
+
+[More](https://wiki.mozilla.org/WebAppSec/Secure_Coding_QA_Checklist#Test:_Input_Validation_For_User_Controlled_Data)...
+
 ---
 
-### Application Input and Output: the HOW?
-
- * [And](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf). [Many](https://www.owasp.org/index.php/Input_Validation_Cheat_Sheet). [More](https://wiki.mozilla.org/WebAppSec/Secure_Coding_QA_Checklist#Test:_Input_Validation_For_User_Controlled_Data)...
-
----
-
-### Authentication: the WHO?
+### Authentication: the *WHO?*
 
 Keywords: login, logout, passwords management, remember me, secret question, account update, etc.
 
 +++
 
-### Authentication: the WHO?
+### Authentication: the *WHO?*
 
 Functionality:
  * Create new users;
@@ -112,14 +114,16 @@ Functionality:
 
 ---
 
-### Authentication: the WHY?
+### Authentication: the *WHY?*
 
-[OWASP Authentication](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management) threat impact: SEVERE. See examples.  
+[OWASP Authentication](https://www.owasp.org/index.php/Top_10_2013-A2-Broken_Authentication_and_Session_Management) threat impact: SEVERE.  
+See examples.
+
 Attacker can impersonate a priviledged account.
 
 +++
 
-### Authentication: the WHY?
+### Authentication: the *WHY?*
 
 Attacks:
  * [Dictonary attacks](https://en.wikipedia.org/wiki/Dictionary_attack): based on trying all strings in a pre-arranged listing.  
@@ -130,7 +134,7 @@ Attacks:
 
 ---
 
-### Authentication: the HOW?
+### Authentication: the *HOW?*
 
  * [Java Authentication and Authorisation Service](https://docs.oracle.com/javase/8/docs/technotes/guides/security/jaas/JAASRefGuide.html)
  * [Spring Security Authentication](http://docs.spring.io/spring-security/site/docs/4.2.0.RC1/apidocs//org/springframework/security/core/Authentication.html)
@@ -141,7 +145,7 @@ Checklists:
 
 +++
 
-### Authentication: the HOW?
+### Authentication: the *HOW?*
 
 Preview:
  * Enforce strong pwds;
@@ -155,7 +159,7 @@ Preview:
 
 ---
 
-### Authentication: the... BONUS
+### Authentication: the... *BONUS*
 
 [XKCD password strength](https://www.xkcd.com/936/)
 
@@ -163,13 +167,13 @@ Preview:
 
 ---
 
-### Session Management: the WHO?
+### Session Management: the *WHO?*
 
 Keywords: session timeout, session ID etc.
 
 ---
 
-### Session Management: the WHY?
+### Session Management: the *WHY?*
 
 [Session hikacking](https://en.wikipedia.org/wiki/Session_hijacking) attacks allow the attacker to fully impersonate a victim user in a web app.
 
@@ -177,7 +181,7 @@ Keywords: session timeout, session ID etc.
 
 +++
 
-### Session Management: the WHY?
+### Session Management: the *WHY?*
 
 Methods:
  * [Session prediction](https://www.owasp.org/index.php/Session_Prediction): session IDs generated in a predictable manner;
@@ -187,7 +191,7 @@ Methods:
 
 ---
 
-### Session Management: the HOW?
+### Session Management: the *HOW?*
 
 [OWASP Session Management Cheat Sheet](https://www.owasp.org/index.php/Session_Management_Cheat_Sheet)
 
@@ -197,7 +201,7 @@ Methods:
 
 +++
 
-### Session Management: the HOW?
+### Session Management: the *HOW?*
 
 Checklist:
  * Session IDs: long, created using strong rnd. number generators;
