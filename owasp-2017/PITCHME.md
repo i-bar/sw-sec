@@ -3,7 +3,7 @@
 
 ---
 
-## Agenda
+## Content
 
 * **OWASP**: What it is. What it does.  
 * **Top 10**:  What it is based on. How they are prioritized.  
@@ -12,9 +12,9 @@
 
 ---
 
-## Intro: OWASP
+## Open Web Application Security Project
 
-Open Web Application Security Project - since 2001.
+- since 2001.
 
 Worldwide, not-for-profit charitable organization focused on improving the security of software.
 
@@ -22,7 +22,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 +++
 
-## OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
+## OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 
 * [Top 10 vulnerabilities](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project);
 * [Cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series);
@@ -46,12 +46,22 @@ Note:
 * [Security Shepherd](https://www.owasp.org/index.php/OWASP_Security_Shepherd): security training platform for web and mobile apps;
 * [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project): deliberately insecure web app designed to teach web app security lessons. Not yet production ready, but ready for mainstream usage;
 
+
+---
+
+## Content
+
+* ~~**OWASP**: What it is. What it does.~~
+* **Top 10**:  What it is based on. How they are prioritized.
+* **diff 2017 2013**
+* **2017 in-depth**
+
 ---
 
 ## Top 10: the data
 
 * Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
-* This data spans **hundreds** of organizations and over **50,000** real-world applications and APIs.
+* This data spans **hundreds of organizations** and over **50,000 real-world applications and APIs**.
 
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
 
@@ -59,11 +69,11 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 
 ## Top 10: the priorities
 
-The top **10** items are selected and prioritized according to
+Top **10** items are selected and prioritized according to:
 * prevalence (based on data) &
 * exploitability, detectability and impact (based on consensus estimates).
 
 ---
 
-
+## 
 
