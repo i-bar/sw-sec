@@ -5,10 +5,10 @@
 
 ## Agenda
 
-**1. Intro: OWASP.** What it is. What it does.  
-**2. Intro: Top 10.** What it is based on. How they are prioritized.  
-**3. diff 2017 2013.**   
-4. 2017
+* **OWASP**  What it is. What it does.  
+* **Top 10**  What it is based on. How they are prioritized.  
+* **diff 2017 2013**   
+* **2017 in-depth**
 
 ---
 
@@ -40,7 +40,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 * [Security Shepherd](https://www.owasp.org/index.php/OWASP_Security_Shepherd): security training platform;
 * [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project): deliberately insecure web app;
 
-**[Project Inventory]**(https://www.owasp.org/index.php/Category:OWASP_Project)
+**[Project Inventory](https://www.owasp.org/index.php/Category:OWASP_Project)**
 
 Note:
 * [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project): automatically finds security vulnerabilities in web apps;
@@ -52,12 +52,12 @@ Note:
 
 ## Top 10
 
-Source: **11 large datasets** from firms that specialize in application security: 8 consulting companies and 3 product vendors.  
-This data spans **hundreds of organizations** and over **50,000 real-world applications and APIs**.
+* Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
+* This data spans **hundreds** of organizations and over **50,000** real-world applications and APIs.
 
-The top **10** items are selected and prioritized according to
-* this prevalence data +
-* consensus estimates on exploitability, detectability and impact.
+Top **10** items are selected and prioritized according to
+* prevalence (data) &
+* exploitability, detectability and impact (consensus estimates).
 
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
 
