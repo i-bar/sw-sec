@@ -6,7 +6,7 @@
 ## Content
 
 * **OWASP**: What it is. What it does.  
-* **Top 10**:  What it is based on. How they are prioritized.  
+* **Top 10, 2017**:  What it is based on. How they are prioritized.  
 * **diff 2017 2013**   
 * **2017 in-depth**
 
@@ -51,14 +51,15 @@ Note:
 
 ## Content
 
-<span style="color:WhiteSmoke;">* **OWASP**: What it is. What it does.</span>
+* <span style="color:LightGrey;">**OWASP**: What it is. What it does.</span>
 * **Top 10**:  What it is based on. How they are prioritized.
-<span style="color:WhiteSmoke;">* **diff 2017 2013**</span>
-<span style="color:WhiteSmoke;">* **2017 in-depth**</span>
+* <span style="color:LightGrey;">**diff 2017 2013**</span>
+* <span style="color:LightGrey;">**2017 in-depth**</span>
 
 ---
 
-## Top 10: the data
+## Top 10, 2017
+### The data
 
 * Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
 * This data spans **hundreds of organizations** and over **50,000 real-world applications and APIs**.
@@ -67,7 +68,8 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 
 +++ 
 
-## Top 10: the priorities
+## Top 10, 2017
+### The priorities
 
 Top **10** items are selected and prioritized according to:
 * prevalence (based on data) &
@@ -75,5 +77,7 @@ Top **10** items are selected and prioritized according to:
 
 ---
 
-## 
+## Diff 2017 - 2013
+
+![diff](assets/diff.JPG)
 
