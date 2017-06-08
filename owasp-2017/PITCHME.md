@@ -5,8 +5,8 @@
 
 ## Agenda
 
-* **OWASP**  What it is. What it does.  
-* **Top 10**  What it is based on. How they are prioritized.  
+* **OWASP**: What it is. What it does.  
+* **Top 10**:  What it is based on. How they are prioritized.  
 * **diff 2017 2013**   
 * **2017 in-depth**
 
@@ -22,7 +22,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 +++
 
-## OWASP projects
+## OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project)
 
 * [Top 10 vulnerabilities](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project);
 * [Cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series);
@@ -40,8 +40,6 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 * [Security Shepherd](https://www.owasp.org/index.php/OWASP_Security_Shepherd): security training platform;
 * [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project): deliberately insecure web app;
 
-**[Project Inventory](https://www.owasp.org/index.php/Category:OWASP_Project)**
-
 Note:
 * [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project): automatically finds security vulnerabilities in web apps;
 * [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check): identifies project dependencies and checks if there are any known, publicly disclosed vulnerabilities;
@@ -50,16 +48,22 @@ Note:
 
 ---
 
-## Top 10
+## Top 10: the data
 
 * Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
 * This data spans **hundreds** of organizations and over **50,000** real-world applications and APIs.
 
-Top **10** items are selected and prioritized according to
-* prevalence (data) &
-* exploitability, detectability and impact (consensus estimates).
-
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
+
++++ 
+
+## Top 10: the priorities
+
+The top **10** items are selected and prioritized according to
+* prevalence (based on data) &
+* exploitability, detectability and impact (based on consensus estimates).
+
+---
 
 
 
