@@ -51,10 +51,10 @@ Note:
 
 ## Content
 
-- [x]**OWASP**: What it is. What it does.
-- [ ]**Top 10**:  What it is based on. How they are prioritized.
-- [ ]**diff 2017 2013**
-- [ ]**2017 in-depth**
+- [x] **OWASP**: What it is. What it does.
+- [ ] **Top 10**:  What it is based on. How they are prioritized.
+- [ ] **diff 2017 2013**
+- [ ] **2017 in-depth**
 
 ---
 
