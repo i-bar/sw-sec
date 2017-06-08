@@ -5,10 +5,10 @@
 
 ## Content
 
-* **OWASP**: What it is. What it does.  
-* **Top 10, 2017**:  What it is based on. How they are prioritized.  
-* **diff 2017 2013**   
-* **2017 in-depth**
+* **OWASP generics**: What it is. What it does.
+* **How the list was built**
+* **What's new**: Top 10 2013 and 2017 compared.
+* **Novelties in depth**
 
 ---
 
@@ -80,4 +80,61 @@ Top **10** items are selected and prioritized according to:
 ## Diff 2017 - 2013
 
 ![diff](owasp-2017/assets/diff.JPG)
+
+---
+
+## In depth 1
+
+Merged 
+* 2013-A4: Insecure Direct Object References and
+* 2013-A7: Missing Function Level Access Control back into  
+2017-A4: Broken Access Control.
+
+Split in 2007, to bring more attention to each half of the access control problem (data and functionality). No longer considered that necessary.
+
++++
+
+## Novelties in depth
+
+Added 2017-A7: [Insufficient Attack Protection](https://www.owasp.org/index.php/Top_10_2017-A7-Insufficient_Attack_Protection)
+
+Because:
+* Data => the majority of applications and APIs lack basic capabilities to detect, prevent, and respond to both manual and
+automated attacks.  
+* Application and API owners also need to be able to deploy patches quickly to protect against attacks.
+
+Suggestions:
+* Apps should automatically detect and ban/logout/disable attackers;
+* Deploy patches quickly to block attacks.
+
+
++++
+
+## Novelties in depth
+
+Added 2017-A10: [Underprotected APIs](https://www.owasp.org/index.php/Top_10_2017-A10-Underprotected_APIs)
+
+Because:
+* "the use of APIs has exploded in modern software": e.g. SOAP/XML, REST/JSON, RPC, GWT, etc.
+* These APIs are often unprotected and contain numerous vulnerabilities.
+
+Additional info: [Reddit debate](https://www.reddit.com/r/netsec/comments/64pou3/owasp_top_10_2017_release/) on this risk.
+
+
++++ 
+
+## Novelties in depth
+
+Removed 2013-A10: [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards)
+
+Because:
+* Added in 2010 to raise awareness of this problem;
+* Data shows that this issue isn’t as prevalent as expected.
+
+---
+
+## Instead of conclusion
+
+![risks](owasp-2017/assets/risks.JPG)
+
 
