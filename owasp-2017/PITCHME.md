@@ -79,5 +79,5 @@ Top **10** items are selected and prioritized according to:
 
 ## Diff 2017 - 2013
 
-![diff](assets/owasp-2017/diff.JPG)
+![diff](owasp-2017/assets/diff.JPG)
 
