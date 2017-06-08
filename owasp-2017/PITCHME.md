@@ -51,10 +51,10 @@ Note:
 
 ## Content
 
-* <span style="color:LightGrey;">**OWASP**: What it is. What it does.</span>
+<span style="color:WhiteSmoke;">* **OWASP**: What it is. What it does.</span>
 * **Top 10**:  What it is based on. How they are prioritized.
-* <span style="color:LightGrey;">**diff 2017 2013**</span>
-* <span style="color:LightGrey;">**2017 in-depth**</span>
+<span style="color:WhiteSmoke;">* **diff 2017 2013**</span>
+<span style="color:WhiteSmoke;">* **2017 in-depth**</span>
 
 ---
 
