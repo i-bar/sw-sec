@@ -58,24 +58,25 @@ Note:
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
 * <span style="color:LightGrey;">**Top 10 - 2013 and 2017 compared**  
-  Side-by-side view of the two lists.
-* **About the differences**  
+  Side-by-side view of the two lists.</span>
+* <span style="color:LightGrey;">**About the differences**  
   What was changed and why.</span>
 
 ---
 
 ## Top 10 - 2017
-### How it was built
+#### How it was built
 
 * Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
 * This data spans **hundreds of organizations** and over **50,000 real-world applications and APIs**.
+* **2.3 million vulnerabilities**!
 
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
 
 +++ 
 
 ## Top 10 - 2017
-### How the priorities were assigned
+#### How the priorities were assigned
 
 Top 10 items are selected and prioritized according to:
 * prevalence (based on data) &
@@ -86,8 +87,8 @@ Top 10 items are selected and prioritized according to:
 ## Content
 
 * <span style="color:LightGrey;">**About OWASP**  
-  What it is. OWASP Projects and Tools.
-* **About the Top 10 list**  
+  What it is. OWASP Projects and Tools. </span>
+* <span style="color:LightGrey;">**About the Top 10 list**  
   How it was built. How the priorities were assigned. </span>
 * **Top 10 - 2013 and 2017 compared**  
   Side-by-side view of the two lists.
@@ -105,10 +106,10 @@ Top 10 items are selected and prioritized according to:
 ## Content
 
 * <span style="color:LightGrey;">**About OWASP**  
-  What it is. OWASP Projects and Tools.
-* **About the Top 10 list**  
-  How it was built. How the priorities were assigned.
-* **Top 10 - 2013 and 2017 compared**  
+  What it is. OWASP Projects and Tools.</span>
+* <span style="color:LightGrey;">**About the Top 10 list**  
+  How it was built. How the priorities were assigned.</span>
+* <span style="color:LightGrey;">**Top 10 - 2013 and 2017 compared**  
   Side-by-side view of the two lists.</span>
 * **About the differences**  
   What was changed and why.
@@ -119,8 +120,8 @@ Top 10 items are selected and prioritized according to:
 
 * Merged 
   * 2013-A4: Insecure Direct Object References and
-  * 2013-A7: Missing Function Level Access Control back into  
-* 2017-A4: Broken Access Control.
+  * 2013-A7: Missing Function Level Access Control back into
+  * 2017-A4: Broken Access Control.
 
 Split in 2007, to bring more attention to each half of the access control problem (data and functionality). No longer considered that necessary.
 
@@ -128,11 +129,10 @@ Split in 2007, to bring more attention to each half of the access control proble
 
 ## Differences in depth
 
-* Added 2017-A7: [Insufficient Attack Protection](https://www.owasp.org/index.php/Top_10_2017-A7-Insufficient_Attack_Protection)
+Added 2017-A7: [Insufficient Attack Protection](https://www.owasp.org/index.php/Top_10_2017-A7-Insufficient_Attack_Protection)
 
 Because:
-* Data => lack of basic capabilities to detect, prevent, and respond to both manual and automated attacks.  
-* Application and API owners need to be able to deploy patches quickly to protect against attacks.
+* Data => lack of basic capabilities to detect/prevent/respond to manual/automated attacks.
 
 Suggestions:
 * Apps should automatically detect and ban/logout/disable attackers;
@@ -142,10 +142,10 @@ Suggestions:
 
 ## Differences in depth
 
-* Added 2017-A10: [Underprotected APIs](https://www.owasp.org/index.php/Top_10_2017-A10-Underprotected_APIs)
+Added 2017-A10: [Underprotected APIs](https://www.owasp.org/index.php/Top_10_2017-A10-Underprotected_APIs)
 
 Because:
-* "the use of APIs has exploded in modern software": e.g. SOAP/XML, REST/JSON, RPC, GWT, etc.
+* "The use of APIs has exploded in modern software": e.g. SOAP/XML, REST/JSON, RPC, GWT, etc.
 * These APIs are often unprotected and contain numerous vulnerabilities.
 
 Additional info: [Reddit debate](https://www.reddit.com/r/netsec/comments/64pou3/owasp_top_10_2017_release/) on this risk.
@@ -154,7 +154,7 @@ Additional info: [Reddit debate](https://www.reddit.com/r/netsec/comments/64pou3
 
 ## Differences in depth
 
-* Removed 2013-A10: [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards)
+Removed 2013-A10: [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards)
 
 Because:
 * Added in 2010 to raise awareness of this problem;
