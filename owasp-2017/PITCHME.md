@@ -166,4 +166,8 @@ Because:
 
 ![risks](owasp-2017/assets/risks.JPG)
 
+---
+
+## Thank you! 
+
 
