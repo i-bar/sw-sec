@@ -6,11 +6,13 @@
 ## Content
 
 * **About OWASP**  
-  What it is. The OWASP Projects.
+  What it is. OWASP Projects and Tools.
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
-* **Top 10 - 2013 and 2017 compared**
-* **About the differences**
+* **Top 10 - 2013 and 2017 compared**  
+  Side-by-side view of the two lists.
+* **About the differences**  
+  What was changed and why.
 
 ---
 
