@@ -1,4 +1,4 @@
-## OWASP-2017
+## OWASP Top 10 - 2017
 ### What's new?
 
 ---
@@ -170,4 +170,7 @@ Because:
 
 ## Thank you! 
 
+
+Note:
+Sonar cube!
 
