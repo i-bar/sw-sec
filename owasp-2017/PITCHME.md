@@ -5,10 +5,12 @@
 
 ## Content
 
-* **OWASP generics**: What it is. What it does.
-* **How the list was built**
-* **What's new**: Top 10 2013 and 2017 compared.
-* **Novelties in depth**
+* **About OWASP**  
+  What it is. The OWASP Projects.
+* **About the Top 10 list**  
+  How it was built. How the priorities were assigned.
+* **Top 10 - 2013 and 2017 compared**
+* **About the differences**
 
 ---
 
