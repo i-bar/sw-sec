@@ -16,3 +16,11 @@
 7. Disable the 'remember me' checkbox and functionality.
 8. Disable auto-completion on login fields (e.g. username)
 
+
+### 3. Sensitive Data Exposure
+
+1. Encrypt data at rest & in transit
+2. Protect the keys
+3. Use strong encryption algorythms with salt:
+   * Weak algorithms: MD5, SHA1
+   * Strong: Argon2, PBKDF2, bcrypt, scrypt
