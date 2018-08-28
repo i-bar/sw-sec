@@ -20,7 +20,11 @@
 ### 3. Sensitive Data Exposure
 
 1. Encrypt data at rest & in transit
-2. Protect the keys
-3. Use strong encryption algorythms with salt:
+2. Also protect the keys
+3. Use strong hashing algorythms with salt:
    * Weak algorithms: MD5, SHA1
    * Strong: Argon2, PBKDF2, bcrypt, scrypt
+   * **Salt** protects against hash tables and rainbow tables
+   * **Slow algorythms** protect against brute force attacks  
+4. Use strong encryption algorythms:
+   * 
