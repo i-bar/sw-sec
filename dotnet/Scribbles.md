@@ -20,11 +20,18 @@
 ### 3. Sensitive Data Exposure
 
 1. Encrypt data at rest & in transit
-2. Also protect the keys
-3. Use strong hashing algorythms with salt:
+2. Use strong hashing algorythms with salt:
    * Weak algorithms: MD5, SHA1
    * Strong: Argon2, PBKDF2, bcrypt, scrypt
    * **Salt** protects against hash tables and rainbow tables
    * **Slow algorythms** protect against brute force attacks  
-4. Use strong encryption algorythms:
-   * 
+3. Use strong encryption algorythms:
+   * DES is to be avoided and so is RSA-768, -1024
+   * RSA-2048 and RSA-3072 are acceptable
+   * AES-CBC mode is acceptable, while
+   * AES-GCM mode is part of the Next Generation Encription.
+4. Secure keys:
+   * Protect keys;
+   * Do not reuse keys and IVs (Initialisation Vectors)
+   * Q: HOW? WHERE?
+
