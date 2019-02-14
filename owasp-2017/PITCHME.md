@@ -3,6 +3,12 @@
 
 ---
 
+?image=owasp-2017/assets/oak.JPG&size=cover
+@snap[east text-white span-55] @quote[The best time to plant an oak tree was 20 years ago.  
+The next best time is now.](Ancient Proverb) @snapend
+
+---
+
 ## Content
 
 * **About OWASP**  
@@ -53,13 +59,13 @@ Note:
 
 ## Content
 
-* <span style="color:LightGrey;">**About OWASP**  
+* <span style="color:Grey;">**About OWASP**  
   What it is. OWASP Projects and Tools.</span>
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
-* <span style="color:LightGrey;">**Top 10 - 2013 and 2017 compared**  
+* <span style="color:Grey;">**Top 10 - 2013 and 2017 compared**  
   Side-by-side view of the two lists.</span>
-* <span style="color:LightGrey;">**About the differences**  
+* <span style="color:Grey;">**About the differences**  
   What was changed and why.</span>
 
 ---
@@ -86,13 +92,13 @@ Top 10 items are selected and prioritized according to:
 
 ## Content
 
-* <span style="color:LightGrey;">**About OWASP**  
+* <span style="color:Grey;">**About OWASP**  
   What it is. OWASP Projects and Tools. </span>
-* <span style="color:LightGrey;">**About the Top 10 list**  
+* <span style="color:Grey;">**About the Top 10 list**  
   How it was built. How the priorities were assigned. </span>
 * **Top 10 - 2013 and 2017 compared**  
   Side-by-side view of the two lists.
-* <span style="color:LightGrey;">**About the differences**  
+* <span style="color:Grey;">**About the differences**  
   What was changed and why.</span>
 
 ---
@@ -105,11 +111,11 @@ Top 10 items are selected and prioritized according to:
 
 ## Content
 
-* <span style="color:LightGrey;">**About OWASP**  
+* <span style="color:Grey;">**About OWASP**  
   What it is. OWASP Projects and Tools.</span>
-* <span style="color:LightGrey;">**About the Top 10 list**  
+* <span style="color:Grey;">**About the Top 10 list**  
   How it was built. How the priorities were assigned.</span>
-* <span style="color:LightGrey;">**Top 10 - 2013 and 2017 compared**  
+* <span style="color:Grey;">**Top 10 - 2013 and 2017 compared**  
   Side-by-side view of the two lists.</span>
 * **About the differences**  
   What was changed and why.
