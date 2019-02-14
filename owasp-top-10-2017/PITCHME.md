@@ -15,9 +15,9 @@
   What it is. OWASP Projects and Tools.
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
-* **Top 10 - 2013 and 2017 compared**  
-  Side-by-side view of the two lists.
-* **About the differences**  
+* **Top 10 2013 / 2017: similarities**  
+  What remained and why.
+* **Top 10 2013 / 2017: differences**  
   What was changed and why.
 
 ---
@@ -106,19 +106,27 @@ Top 10 items are selected and prioritized according to:
 ## Content
 
 * <span style="color:Grey;">**About OWASP**  
-  What it is. OWASP Projects and Tools. </span>
+  What it is. OWASP Projects and Tools.
 * <span style="color:Grey;">**About the Top 10 list**  
-  How it was built. How the priorities were assigned. </span>
-* **Top 10 - 2013 and 2017 compared**  
-  Side-by-side view of the two lists.
-* <span style="color:Grey;">**About the differences**  
-  What was changed and why.</span>
+  How it was built. How the priorities were assigned.
+* **Top 10 2013 / 2017: similarities**  
+  What remained and why.
+* <span style="color:Grey;">**Top 10 2013 / 2017: differences**  
+  What was changed and why.
 
 ---
 
-## Diff 2013 - 2017
+## diff (2013, 2017)
 
 ![diff](owasp-top-10-2017/assets/diff2.JPG)
+
++++
+
+## What remained and why
+#### A1 - Injection
+* Occurs when an attacker sends hostile data to an interpreter.
+* E.g. SQL Injection: `String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";` where id = `' or '1'='1`
+* **Solution**: Parameterized queries
 
 ---
 
