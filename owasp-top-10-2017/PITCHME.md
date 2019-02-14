@@ -97,7 +97,7 @@ Top 10 items are selected and prioritized according to:
 
 @snapend
 
-@snap[south span-40]
+@snap[south-east span-50]
 ![formula](owasp-top-10-2017/assets/formula.JPG)
 @snapend
 
