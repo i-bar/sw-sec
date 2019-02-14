@@ -3,7 +3,7 @@
 
 ---
 
-?image=owasp-2017/assets/oak.JPG&size=cover
+<!-- ?image=owasp-2017/assets/oak.JPG&size=cover -->
 @snap[east text-white span-55] @quote[The best time to plant an oak tree was 20 years ago.  
 The next best time is now.](Ancient Proverb) @snapend
 
