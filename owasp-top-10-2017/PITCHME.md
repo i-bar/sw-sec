@@ -1,5 +1,5 @@
 ## OWASP Top 10 - 2017
-### What's new?
+### Compared to 2013
 
 ---?image=owasp-top-10-2017/assets/oak.JPG&opacity=50
 
@@ -9,20 +9,22 @@
 
 ---
 
-## Content
+### Content
 
 * **About OWASP**  
   What it is. OWASP Projects and Tools.
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
+* **Top 10 2017: Overview**
+  Risk factor summary for every 2017 Application Security Risk.
 * **Top 10 2013 / 2017: similarities**  
   What remained and why.
 * **Top 10 2013 / 2017: differences**  
-  What was changed and why.
+  What has changed and why.
 
 ---
 
-## OWASP
+### OWASP
 
 **Open Web Application Security Project** - since 2001.
 
@@ -32,7 +34,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 +++
 
-## OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
+### OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
 
 * [Top 10 risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project);
 * [Cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series);
@@ -44,7 +46,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 +++
 
-## OWASP tools
+### OWASP tools
 
 * [Zed Attack Proxy](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project): automatically finds security vulnerabilities in web apps;
 * [Dependency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check): identifies project dependencies & known vulnerabilities.
@@ -57,20 +59,7 @@ Note:
 
 ---
 
-## Content
-
-* <span style="color:Grey;">**About OWASP**  
-  What it is. OWASP Projects and Tools.</span>
-* **About the Top 10 list**  
-  How it was built. How the priorities were assigned.
-* <span style="color:Grey;">**Top 10 - 2013 and 2017 compared**  
-  Side-by-side view of the two lists.</span>
-* <span style="color:Grey;">**About the differences**  
-  What was changed and why.</span>
-
----
-
-## Top 10 - 2017
+### OWASP Top 10
 #### How it was built
 
 * Source: 
@@ -83,7 +72,7 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 +++ 
 
 @snap[north]
-## Top 10 - 2017
+### OWASP Top 10
 #### How the priorities were assigned
 @snapend
 
@@ -103,18 +92,11 @@ Top 10 items are selected and prioritized according to:
 
 ---
 
-## Content
+### Top 10 2017: overview
 
-* <span style="color:Grey;">**About OWASP**  
-  What it is. OWASP Projects and Tools.
-* <span style="color:Grey;">**About the Top 10 list**  
-  How it was built. How the priorities were assigned.
-* **Top 10 2013 / 2017: similarities**  
-  What remained and why.
-* <span style="color:Grey;">**Top 10 2013 / 2017: differences**  
-  What was changed and why.
+![overview](owasp-top-10-2017/assets/overview.JPG)
 
----
++++
 
 ### diff (2013, 2017)
 
@@ -122,11 +104,14 @@ Top 10 items are selected and prioritized according to:
 
 +++
 
-### What remained unchanged and why
+### Why the changes?
 
-![overview](owasp-top-10-2017/assets/overview.JPG)
+* Microservices are replacing traditional monolythic applications.  
+  * Old code never expected to be accessible from the Internet is now sitting behind an API or RESTful web service.
+* Single page applications, written in JavaScript frameworks such as Angular and React, allow the creation of highly modular feature-rich front ends.  
+  * Client-side functionality that has traditionally been delivered server-side brings its own security challenges.
 
-+++
+---
 
 #### What remained
 ### A1 - Injection
@@ -177,68 +162,49 @@ Top 10 items are selected and prioritized according to:
 
 ---
 
-## Content
+#### What has changed
+### A4 - XML External Entities (XXE) - **NEW***
+* Poorly configured XML processors evaluate external entity references within XML documents.
+* Attacks include remote code execution, and to disclose internal files.
+* E.g. An attacker attempts a denial-of-service attack by including a potentially endless file:  
+  `<!ENTITY xxeSYSTEM "file:///dev/random" >]>`
+* **Possible Solution**: Whenever possible, use JSON. Patch / update XML processors.
 
-* <span style="color:Grey;">**About OWASP**  
-  What it is. OWASP Projects and Tools.</span>
-* <span style="color:Grey;">**About the Top 10 list**  
-  How it was built. How the priorities were assigned.</span>
-* <span style="color:Grey;">**Top 10 - 2013 and 2017 compared**  
-  Side-by-side view of the two lists.</span>
-* **About the differences**  
-  What was changed and why.
++++
 
----
-
-## Differences in depth
-
+#### What has changed
+### A5 - Broken access control - **MERGED**
 * Merged 
   * 2013-A4: Insecure Direct Object References and
   * 2013-A7: Missing Function Level Access Control back into
-  * 2017-A4: Broken Access Control.
-
-Split in 2007, to bring more attention to each half of the access control problem (data and functionality). No longer considered that necessary.
-
-+++
-
-## Differences in depth
-
-Added 2017-A7: [Insufficient Attack Protection](https://www.owasp.org/index.php/Top_10_2017-A7-Insufficient_Attack_Protection)
-
-Because:
-* Data => lack of basic capabilities to detect/prevent/respond to manual/automated attacks.
-
-Suggestions:
-* Apps should automatically detect and ban/logout/disable attackers;
-* Deploy patches quickly to block attacks.
+* Split in 2007, to bring more attention to each half of the access control problem (data and functionality). No longer considered that necessary.
+* **Cause**: Improperly configured or missing restrictions on authenticated users
+* **Effect**: Users can them to access unauthorized functionality or data, such as accessing other users’ accounts, viewing sensitive documents, and modifying data and access rights.
+* **Possible solution**: Deny by default. Pentesting.
 
 +++
 
-## Differences in depth
+#### What has changed
+### A8 - Insecure deserialization - **NEW**
+* Leads to remote code execution, injection attacks, privilege escalation attacks;
+* TODO
 
-Added 2017-A10: [Underprotected APIs](https://www.owasp.org/index.php/Top_10_2017-A10-Underprotected_APIs)
++++
 
-Because:
-* "The use of APIs has exploded in modern software": e.g. SOAP/XML, REST/JSON, RPC, GWT, etc.
-* These APIs are often unprotected and contain numerous vulnerabilities.
+#### What has changed
+### A10 - Insufficient logging & monitoring - **NEW**
+* TODO
 
-Additional info: [Reddit debate](https://www.reddit.com/r/netsec/comments/64pou3/owasp_top_10_2017_release/) on this risk.
++++
 
-+++ 
+#### What has changed
+### **REMOVED** Cross-site request forgery
+* TODO
 
-## Differences in depth
-
-Removed 2013-A10: [Unvalidated Redirects and Forwards](https://www.owasp.org/index.php/Top_10_2013-A10-Unvalidated_Redirects_and_Forwards)
-
-Because:
+### **REMOVED** Unvalidated redirects and forwards
 * Added in 2010 to raise awareness of this problem;
 * Data shows that this issue isn’t as prevalent as expected.
 
 ---
 
 ## Thank you! 
-
-
-Note:
-Sonar cube!
-
