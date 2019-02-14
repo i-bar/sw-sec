@@ -88,11 +88,11 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 @snapend
 
 @snap[west-midpoint-east]
-@size[1em](Top 10 items are selected and prioritized according to:)
+@size[0.8em](Top 10 items are selected and prioritized according to:)
 
 @ul[](false)
-* @size[1em](prevalence (based on data\) &)
-* @size[1em](exploitability, detectability and impact (based on consensus estimates\).)
+* @size[0.8em](prevalence (based on data\) &)
+* @size[0.8em](exploitability, detectability and impact (based on consensus estimates\).)
 @ulend
 
 @snapend
