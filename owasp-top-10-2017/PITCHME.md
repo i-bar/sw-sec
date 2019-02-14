@@ -3,6 +3,12 @@
 
 ---
 
+@snap[south-east]
+@quote[The best time to plant an oak tree was 20 years ago. The next best time is now.](Ancient Proverb)
+@snapend
+
+---
+
 ## Content
 
 * **About OWASP**  
