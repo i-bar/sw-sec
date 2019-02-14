@@ -124,11 +124,12 @@ Top 10 items are selected and prioritized according to:
 
 ## What remained and why
 #### A1 - Injection
+@size[0.8em](
 * Occurs when an attacker sends hostile data to an interpreter.
 * E.g. SQL Injection:  
   `String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";`  
   where id = `' or '1'='1`
-* **Solution**: Parameterized queries
+* **Solution**: Parameterized queries)
 
 ---
 
