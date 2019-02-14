@@ -4,7 +4,7 @@
 ---?image=owasp-top-10-2017/assets/oak.JPG&opacity=30
 
 @snap[south-east]
-@quote[The best time to plant<br>an oak tree<br>was 20 years ago.<br>The next best time is now.](Ancient Proverb)
+@quote[The best time to plant an oak tree<br>was 20 years ago.<br>The next best time is now.](Ancient Proverb)
 @snapend
 
 ---
