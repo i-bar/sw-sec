@@ -1,7 +1,7 @@
 ## OWASP Top 10 - 2017
 ### What's new?
 
----?image=assets/oak.JPG&size=cover&opacity=50
+---?image=owasp-top-10-2017/assets/oak.JPG&size=cover&opacity=50
 
 @snap[south-east]
 @quote[The best time to plant an oak tree was 20 years ago.<br>The next best time is now.](Ancient Proverb)
@@ -107,7 +107,7 @@ Top 10 items are selected and prioritized according to:
 
 ## Diff 2013 - 2017
 
-![diff](owasp-2017/assets/diff2.JPG)
+![diff](sw-sec/owasp-top-10-2017/assets/diff2.JPG)
 
 ---
 
