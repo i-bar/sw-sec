@@ -1,7 +1,7 @@
 ## OWASP Top 10 - 2017
 ### What's new?
 
----?image=owasp-top-10-2017/assets/oak.JPG&opacity=30
+---?image=owasp-top-10-2017/assets/oak.JPG&opacity=50
 
 @snap[south-east]
 @quote[The best time to plant an oak tree<br>was 20 years ago.<br>The next best time is now.](Ancient Proverb)
@@ -24,7 +24,7 @@
 
 ## OWASP
 
-Open Web Application Security Project - since 2001.
+**Open Web Application Security Project** - since 2001.
 
 Worldwide, not-for-profit charitable organization focused on improving the security of software.
 
@@ -40,7 +40,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 * Guides: [Development guide](https://www.owasp.org/index.php/OWASP_Guide_Project#tab=Main), [Testing guide](https://www.owasp.org/index.php/OWASP_Testing_Project);
 * [Code Review Guide](https://www.owasp.org/index.php/Category:OWASP_Code_Review_Project);
 * [Proactive controls](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab=OWASP_Proactive_Controls_2016);
-* [Tools](https://www.owasp.org/index.php/Category:OWASP_Tools_Project), e.g. [Vulnerability Scanning Tools](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools).
+* [Tools overview](https://www.owasp.org/index.php/Category:OWASP_Tools_Project), e.g. [Vulnerability Scanning Tools](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools).
 
 +++
 
@@ -77,7 +77,6 @@ Note:
   * **40+ data submissions** from firms that specialize in application security (e.g.consulting companies)
   * Industry survey completed by over 500 individuals.
 * This data spans **hundreds of organizations** and over **100,000 real-world applications and APIs**.
-* **2.3 million vulnerabilities**!
 
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
 
@@ -89,6 +88,7 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 Top 10 items are selected and prioritized according to:
 * prevalence (based on data) &
 * exploitability, detectability and impact (based on consensus estimates).
+![formula](owasp-top-10-2017/assets/formula.JPG)
 
 ---
 
