@@ -118,21 +118,23 @@ Top 10 items are selected and prioritized according to:
 
 ## diff (2013, 2017)
 
-![diff](owasp-top-10-2017/assets/diff2.JPG)
+![diff](owasp-top-10-2017/assets/diff.JPG)
 
 +++
 
-## What remained and why
-#### A1 - Injection
-@size[0.8em](
-@ul[](false)
+#### What remained unchanged and why
+
+![overview](owasp-top-10-2017/assets/overview.JPG)
+
++++
+
+#### What remained unchanged
+## A1 - Injection
 * Occurs when an attacker sends hostile data to an interpreter.
 * E.g. SQL Injection:  
   `String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";`  
   where id = `' or '1'='1`
 * **Solution**: Parameterized queries
-@ulend
-)
 
 ---
 
@@ -192,12 +194,6 @@ Removed 2013-A10: [Unvalidated Redirects and Forwards](https://www.owasp.org/ind
 Because:
 * Added in 2010 to raise awareness of this problem;
 * Data shows that this issue isn’t as prevalent as expected.
-
----
-
-## Instead of conclusion
-
-![risks](owasp-top-10-2017/assets/risks2.JPG)
 
 ---
 
