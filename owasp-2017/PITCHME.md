@@ -3,14 +3,6 @@
 
 ---
 
-<!-- ?image=owasp-2017/assets/oak.JPG&size=cover -->
-<!-- @snap[east text-white span-55]  -->
-@quote[The best time to plant an oak tree was 20 years ago.  
-The next best time is now.](Ancient Proverb) 
-<!-- @snapend -->
-
----
-
 ## Content
 
 * **About OWASP**  
@@ -75,8 +67,10 @@ Note:
 ## Top 10 - 2017
 #### How it was built
 
-* Source: **11 large datasets** from firms that specialize in application security (e.g.consulting companies)  
-* This data spans **hundreds of organizations** and over **50,000 real-world applications and APIs**.
+* Source: 
+  * **40+ data submissions** from firms that specialize in application security (e.g.consulting companies)
+  * Industry survey completed by over 500 individuals.
+* This data spans **hundreds of organizations** and over **100,000 real-world applications and APIs**.
 * **2.3 million vulnerabilities**!
 
 All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017/datacall/OWASP%20Top%2010%20-%202017%20Data%20Call-Public%20Release.xlsx?raw=true)!!!
@@ -107,7 +101,7 @@ Top 10 items are selected and prioritized according to:
 
 ## Diff 2013 - 2017
 
-![diff](owasp-2017/assets/diff.JPG)
+![diff](owasp-2017/assets/diff2.JPG)
 
 ---
 
@@ -172,7 +166,7 @@ Because:
 
 ## Instead of conclusion
 
-![risks](owasp-2017/assets/risks.JPG)
+![risks](owasp-2017/assets/risks2.JPG)
 
 ---
 
