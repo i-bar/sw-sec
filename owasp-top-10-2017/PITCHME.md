@@ -83,13 +83,15 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 +++ 
 
 ## Top 10 - 2017
-#### How the priorities were assigned
 
+@snap[north]
+#### How the priorities were assigned
 Top 10 items are selected and prioritized according to:
 * prevalence (based on data) &
 * exploitability, detectability and impact (based on consensus estimates).
+@snapend
 
-@snap[south sidebar]
+@snap[south]
 ![formula](owasp-top-10-2017/assets/formula.JPG)
 @snapend
 
