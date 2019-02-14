@@ -88,16 +88,16 @@ All data is [publicly available](https://github.com/OWASP/Top10/blob/master/2017
 @snapend
 
 @snap[west-midpoint-east]
-@size[0.8em](Top 10 items are selected and prioritized according to:)
+Top 10 items are selected and prioritized according to:
 
 @ul[](false)
-* @size[0.8em](prevalence (based on data\) &)
-* @size[0.8em](exploitability, detectability and impact (based on consensus estimates\).)
+* prevalence (based on data) &
+* exploitability, detectability and impact (based on consensus estimates).
 @ulend
 
 @snapend
 
-@snap[south]
+@snap[south span-80]
 ![formula](owasp-top-10-2017/assets/formula.JPG)
 @snapend
 
