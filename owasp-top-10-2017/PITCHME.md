@@ -116,13 +116,13 @@ Top 10 items are selected and prioritized according to:
 
 ---
 
-## diff (2013, 2017)
+### diff (2013, 2017)
 
 ![diff](owasp-top-10-2017/assets/diff.JPG)
 
 +++
 
-#### What remained unchanged and why
+### What remained unchanged and why
 
 ![overview](owasp-top-10-2017/assets/overview.JPG)
 
