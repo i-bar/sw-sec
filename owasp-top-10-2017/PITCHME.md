@@ -128,13 +128,52 @@ Top 10 items are selected and prioritized according to:
 
 +++
 
-#### What remained unchanged
+#### What remained
 ## A1 - Injection
 * Occurs when an attacker sends hostile data to an interpreter.
 * E.g. SQL Injection:  
   `String query = "SELECT * FROM accounts WHERE custID='" + request.getParameter("id") + "'";`  
   where id = `' or '1'='1`
-* **Solution**: Parameterized queries
+* **Possible solution**: Parameterized queries
+
++++
+
+#### What remained
+## A2 - Broken Authentication
+* Incorrectly configured user and session authentication;
+* Attacker can compromise passwords, keys, or session tokens, or take control of users’ accounts to assume their identities.
+* **Possible Solution**: Multi-factor authentication
+
++++
+
+#### What remained
+## A3 - Sensitive Data Exposure (prev. A6 in 2013)
+* Sensitive data such as financial data, usernames and passwords, or health information that is not properly protected;
+* Attacker can access such information to commit fraud or steal identities.
+* **Possible Solution**: Encryption of data at rest and in transit
+
++++
+
+#### What remained
+## A6 - Security misconfiguration (prev. A5 in 2013)
+* Insecure default configurations, misconfigured HTTP headers, verboise error messages containing sensitive information, systems / frameworks or components that are not upgrades, etc.
+* **Possible Solution**: Keep systems / frameworks / libraries / applications properly configured and up to date.
+
++++
+
+#### What remained
+## A7 - Cross-Site Scripting (prev. A3 in 2013)
+* Attackers can execute scripts in the victim's browser;
+* Hijack user sessions, redirect users to malicious sites etc.
+* **Possible Solution**: Data encoding, input validation.
+
++++
+
+#### What remained
+## A9 - Using components with known vulnerabilities
+* Components, such as libraries, frameworks, and other software modules, run with the same privileges as the application.
+* Possible outcomes: serious data loss or server takeover.
+* **Possible Solution**: Conduct software composition analysis.
 
 ---
 
