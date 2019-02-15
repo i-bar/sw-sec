@@ -41,7 +41,7 @@
 * [Top 10 risks](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project);
 * [Cheat sheets](https://www.owasp.org/index.php/OWASP_Cheat_Sheet_Series);
 * [Checklists](https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf);
-* Guides: [Development guide](https://www.owasp.org/index.php/OWASP_Guide_Project#tab=Main), [Testing guide](https://www.owasp.org/index.php/OWASP_Testing_Project);
+* Guides: [Development guide](https://www.owasp.org/index.php/OWASP_Guide_Project#tab=Main), [Testing guide](https://www.owasp.org/index.php/OWASP_Testing_Project), [Code review guide](https://www.owasp.org/index.php/Category:OWASP_Code_Review_Project);
 * [Code Review Guide](https://www.owasp.org/index.php/Category:OWASP_Code_Review_Project);
 * [Proactive controls](https://www.owasp.org/index.php/OWASP_Proactive_Controls#tab=OWASP_Proactive_Controls_2016);
 * [Tools overview](https://www.owasp.org/index.php/Category:OWASP_Tools_Project), e.g. [Vulnerability Scanning Tools](https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools).
