@@ -191,7 +191,7 @@ Note:
 #### What has changed
 ### A8 - Insecure deserialization - *NEW*
 * Leads to remote code execution, injection attacks, privilege escalation attacks;
-* **Possible solutions**: Do not accept serialized content from untrusted sources, or use serialization mediums that only permit primitive types.
+* **Possible solutions**: Do not accept serialized content from untrusted sources. Pentesting.
 
 +++
 
@@ -206,7 +206,7 @@ Note:
 #### What has changed
 ### Cross-site request forgery (CSRF) - *REMOVED*
 * Found in only 5% of the applications;
-* Many frameworks include CSRF defenses.
+* Many frameworks include CSRF defenses.  
 
 ### Unvalidated redirects and forwards - *REMOVED*
 * Although found in 8% of the application;
