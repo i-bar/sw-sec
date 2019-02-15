@@ -170,7 +170,7 @@ Note:
 #### What has changed
 ### A4 - XML External Entities (XXE) - *NEW*
 * Poorly configured XML processors evaluate external entity references within XML documents.
-* Attacks: remote code execution, disclose internal files.
+* Attacks include remote code execution, disclose internal files.
 * E.g. An attacker attempts a denial-of-service attack by including a potentially endless file:  
   `<!ENTITY xxeSYSTEM "file:///dev/random" >]>`
 * **Possible Solution**: Whenever possible, use JSON. Patch / update XML processors.
@@ -182,7 +182,6 @@ Note:
 * Merged 
   * 2013-A4: Insecure Direct Object References and
   * 2013-A7: Missing Function Level Access Control back into
-* Split in 2007, to bring more attention to each half of the access control problem (data and functionality). No longer considered that necessary.
 * **Cause**: Improperly configured or missing restrictions on authenticated users
 * **Effect**: Users can them to access unauthorized functionality or data, such as accessing other users’ accounts, viewing sensitive documents, and modifying data and access rights.
 * **Possible solution**: Deny by default. Pentesting.
