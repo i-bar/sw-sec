@@ -9,8 +9,8 @@
   What it is. OWASP Projects and Tools.
 * **About the Top 10 list**  
   How it was built. How the priorities were assigned.
-* **Top 10 2017: Overview**
-  Risk factor summary for every 2017 Application Security Risk.
+* **Top 10 2017: Overview**  
+  Risk factor summary for every 2017 Risk.
 * **Top 10 2013 / 2017: similarities**  
   What remained and why.
 * **Top 10 2013 / 2017: differences**  
