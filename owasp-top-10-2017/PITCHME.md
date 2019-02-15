@@ -1,12 +1,6 @@
 ## OWASP Top 10 - 2017
 ### Compared to 2013
 
----?image=owasp-top-10-2017/assets/oak.JPG&opacity=50
-
-@snap[south-east]
-@quote[The best time to plant an oak tree<br>was 20 years ago.<br>The next best time is now.](Ancient Proverb)
-@snapend
-
 ---
 
 ### Content
@@ -173,7 +167,7 @@ Top 10 items are selected and prioritized according to:
 +++
 
 #### What has changed
-### A5 - Broken access control - **MERGED**
+### A5 - Broken access control - *MERGED*
 * Merged 
   * 2013-A4: Insecure Direct Object References and
   * 2013-A7: Missing Function Level Access Control back into
@@ -185,26 +179,33 @@ Top 10 items are selected and prioritized according to:
 +++
 
 #### What has changed
-### A8 - Insecure deserialization - **NEW**
+### A8 - Insecure deserialization - *NEW*
 * Leads to remote code execution, injection attacks, privilege escalation attacks;
-* TODO
+* **Possible solutions**: Do not accept serialized content from untrusted sources, or use serialization mediums that only permit primitive types.
 
 +++
 
 #### What has changed
-### A10 - Insufficient logging & monitoring - **NEW**
-* TODO
+### A10 - Insufficient logging & monitoring - *NEW*
+* Owasp: *"Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring."*
+* **Possible causes**: Critical events (logins, failed logins, high-value transactions) are not logged.
+* **Possible solution**: Think like an attacker and use pen testing. Examine logs after pen testing.
 
 +++
 
 #### What has changed
-### **REMOVED** Cross-site request forgery
-* TODO
+### Cross-site request forgery (CSRF) - *REMOVED*
+* Found in only 5% of the applications;
+* Many frameworks include CSRF defenses.
 
-### **REMOVED** Unvalidated redirects and forwards
-* Added in 2010 to raise awareness of this problem;
-* Data shows that this issue isn’t as prevalent as expected.
+### Unvalidated redirects and forwards - *REMOVED*
+* Although found in 8% of the application;
+* Edged out overall by XXE.
 
----
+---?image=owasp-top-10-2017/assets/oak.JPG&opacity=50
 
 ## Thank you! 
+
+@snap[south-east]
+@quote[The best time to plant an oak tree<br>was 20 years ago.<br>The next best time is now.](Ancient Proverb)
+@snapend
