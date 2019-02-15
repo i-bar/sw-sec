@@ -170,7 +170,7 @@ Note:
 #### What has changed
 ### A4 - XML External Entities (XXE) - *NEW*
 * Poorly configured XML processors evaluate external entity references within XML documents.
-* Attacks include remote code execution, and to disclose internal files.
+* Attacks: remote code execution, disclose internal files.
 * E.g. An attacker attempts a denial-of-service attack by including a potentially endless file:  
   `<!ENTITY xxeSYSTEM "file:///dev/random" >]>`
 * **Possible Solution**: Whenever possible, use JSON. Patch / update XML processors.
