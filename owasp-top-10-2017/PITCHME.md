@@ -26,6 +26,9 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 => unbiased, practical, free and open information.
 
+@snap[south]
+![OWASP](owasp-top-10-2017/assets/owasp-logo.png)
+
 +++
 
 ### OWASP [Projects](https://www.owasp.org/index.php/Category:OWASP_Project#tab=Project_Inventory)
