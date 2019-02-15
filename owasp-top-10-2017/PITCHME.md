@@ -22,7 +22,7 @@
 ### OWASP
 @snapend
 
-@snap[south-west span-70]
+@snap[west span-70]
 **Open Web Application Security Project** - since 2001.
 Worldwide, not-for-profit charitable organization focused on improving the security of software.
 
