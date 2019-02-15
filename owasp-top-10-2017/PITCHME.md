@@ -18,15 +18,18 @@
 
 ---
 
+@snap[north]
 ### OWASP
+@snapend
 
+@snap[west-midpoint-south]
 **Open Web Application Security Project** - since 2001.
-
 Worldwide, not-for-profit charitable organization focused on improving the security of software.
 
 => unbiased, practical, free and open information.
+@snapend
 
-@snap[north-east]
+@snap[east]
 ![OWASP](owasp-top-10-2017/assets/owasp-logo.png)
 @snapend
 
