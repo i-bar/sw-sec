@@ -23,11 +23,11 @@
 @snapend
 
 @snap[west span-70]
-**Open Web Application Security Project** - since 2001.
-<br><br>
-Worldwide, not-for-profit charitable organization focused on improving the security of software.
-<br><br>
-=> unbiased, practical, free and open information.
+@ul[](false)
+* **Open Web Application Security Project** - since 2001.
+* Worldwide, not-for-profit charitable organization focused on improving the security of software.
+* => unbiased, practical, free and open information.
+@ulend
 @snapend
 
 @snap[east span-30]
