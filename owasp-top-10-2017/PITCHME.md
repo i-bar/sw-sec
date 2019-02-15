@@ -108,8 +108,8 @@ Top 10 items are selected and prioritized according to:
 
 ### Why the changes?
 
-* Microservices are replacing traditional monolythic applications.  
-* Single page applications, written in JavaScript frameworks such as Angular and React, allow the creation of highly modular feature-rich front ends.  
+* **Microservices** are replacing traditional monolythic applications.  
+* **Single page applications**, written in JavaScript frameworks such as Angular and React, allow the creation of highly modular feature-rich front ends.  
 
 Note:
 
