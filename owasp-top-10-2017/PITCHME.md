@@ -28,6 +28,7 @@ Worldwide, not-for-profit charitable organization focused on improving the secur
 
 @snap[south]
 ![OWASP](owasp-top-10-2017/assets/owasp-logo.png)
+@snapend
 
 +++
 
