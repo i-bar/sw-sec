@@ -109,9 +109,12 @@ Top 10 items are selected and prioritized according to:
 ### Why the changes?
 
 * Microservices are replacing traditional monolythic applications.  
-  * Old code never expected to be accessible from the Internet is now sitting behind an API or RESTful web service.
 * Single page applications, written in JavaScript frameworks such as Angular and React, allow the creation of highly modular feature-rich front ends.  
-  * Client-side functionality that has traditionally been delivered server-side brings its own security challenges.
+
+Note:
+
+* Old code never expected to be accessible from the Internet is now sitting behind an API or RESTful web service.
+* Client-side functionality that has traditionally been delivered server-side brings its own security challenges.
 
 ---
 
