@@ -183,7 +183,7 @@ Note:
   * 2013-A4: Insecure Direct Object References and
   * 2013-A7: Missing Function Level Access Control back into
 * **Cause**: Improperly configured or missing restrictions on authenticated users
-* **Effect**: Users can them to access unauthorized functionality or data, such as accessing other users’ accounts, viewing sensitive documents, and modifying data and access rights.
+* **Effect**: Access unauthorized functionality or data, view sensitive documents and modify data and access rights.
 * **Possible solution**: Deny by default. Pentesting.
 
 +++
